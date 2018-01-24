@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    background: #ffffff url("../img/background.jpg") no-repeat right top;
+    
+    
+}
+
+.instrument{
+    /* border: 1px solid black; */
+    display:flex;
+    /* margin-top: 10vh; */
+    height: auto;
+    width: auto;
+
+
+}
+
+.boxShadow{
+    box-shadow: 3px 3px 4px rgb(148, 231, 252);
+}
+
+.box{
+    height: 20vh;
+    margin: 5px;
+    width: 10vw;
+    
+   
+}
+
+
+
+
+
+.noteContainer{
+    text-align: center;
+}
+
+.h1{
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(223, 255, 255);
+
+}
+
+#c{
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 2px solid grey;
+}
+
+#d{
+     background-color: rgba(225, 0, 0, 0.3);
+     border: 2px solid red;
+    
+ }
+
+#e{
+    background-color: rgba(0, 0, 255, 0.3);
+    border: 2px solid blue;
+}
+
+#f{
+    background-color: rgba(255, 255, 0, 0.3);
+    border: 2px solid yellow;
+}
+
+#g{
+    background-color: rgba(0, 255, 255, 0.3);
+    border: 2px solid cyan;
+}
+
+#a{
+    background-color: rgba(0, 128, 0, 0.3);
+    border: 2px solid green;
+}
+
+#b{
+    background-color: rgba(255, 0, 255, 0.3);
+    border: 2px solid fuchsia;;
+}
+
+.p{
+    color: white;
+    display: flex;
+}
